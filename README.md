@@ -1,1 +1,1 @@
-The goal of this project is to deconstruct the Google Homepage using developer tools and then reconstruct the homepage. 
+The goal of this project is to construct the Google homepage with minimal use of developer tools.
