@@ -32,9 +32,9 @@ a:hover{
 }
 
 .nav2 {
+    flex-basis:3%;
     padding:5px;
     margin:0 5px;
-    flex-basis:3%;
 }
 
 #apps:hover{
@@ -79,7 +79,7 @@ box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15
 .logo-container {
     display:flex;
     flex-direction:row;
-    height:300px;
+    height:30vh;
     width:auto;
     align-items: flex-end;
     justify-content: center;
@@ -91,7 +91,7 @@ box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15
 
 .search-container{
     width:100%;
-    height:150px;
+    height:20vh;
     display:flex;
     flex-direction: row;
     align-items:center;
@@ -127,6 +127,7 @@ box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15
     border: none;
     outline:none;
     line-height: 27px;
+    width:30vw;
 }
 
 input[type=text]:focus {
@@ -156,8 +157,83 @@ input[type=text]:focus {
     user-select: none;
 }
 
+#centeringbutton{
+    margin-left:7vw;
+}
+
+.search-button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
 #fillerblock{
     width:100%;
-    height:220px;
+    height:30vh;
     display:block;
+    background-color: transparent;
 }
+
+
+.footer1{
+    width: auto;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+    padding-left: 30px;
+}
+
+#country{
+    color:rgba(0, 0, 0, 0.54);
+    position:relative;
+    
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;    
+    padding:26px;  
+    align-items: center;  
+    background-color: #f2f2f2;;     
+}
+
+.footertextstart{
+    flex-basis:3%;
+    padding:5px;
+    margin:0 5px;
+    flex-wrap:nowrap;
+    color:rgba(0, 0, 0, 0.54);
+}
+
+#special{
+    flex-basis:10%;
+}
+
+.space-between-footer{
+    flex-basis:41%;
+    flex-grow:5;  
+    flex-wrap:nowrap; 
+}
+
+.footertextcenter{
+    flex-basis:15%;
+    padding:5px;
+    margin:0 5px;
+    flex-wrap:nowrap;
+    color:rgba(0, 0, 0, 0.54);
+}
+
+.footertextend{
+    flex-basis:3%;
+    padding:5px;
+    margin:0 5px;
+    flex-wrap:nowrap;
+    color:rgba(0, 0, 0, 0.54);
+}
+
